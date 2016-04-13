@@ -11,6 +11,7 @@ class filebeat::repo {
           repos    => 'main',
           key      => 'D27D666CD88E42B4',
           key_source => 'http://packages.elastic.co/GPG-KEY-elasticsearch',
+          include_src => false,
         }
       }
     }
